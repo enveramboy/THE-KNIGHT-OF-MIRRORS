@@ -1,0 +1,187 @@
+@font-face {
+  font-family: titleFont;
+  src: url(media/METAG___.TTF);
+}
+
+@font-face {
+  font-family: subHeadFont;
+  src: url(media/Tactical\ Espionage\ Action.ttf);
+}
+
+@font-face {
+  font-family: codec;
+  src:url(media/000webfont.ttf);
+}
+
+@keyframes blink {
+  to { visibility: hidden; }
+}
+
+@keyframes appear {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes appearKof {
+  from { opacity: 0; }
+  to { opacity: 0.6; }
+}
+
+.blink {
+  animation: blink 1s steps(2, start) infinite;
+}
+
+.fadeIn {
+  opacity: 1;
+  animation: appear 3s steps(50, start);
+}
+
+.fadeInKof {
+  opacity: 0.6;
+  animation: appearKof 3s steps(50, start);
+}
+
+#t1 {
+  font-family: subHeadFont;
+  color: rgba(190,166,140,0.8);
+  font-size: calc(2vw + 2vh);
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#t2 {
+  font-family: titleFont;
+  color: rgba(190,166,140,0.8);
+  font-size: calc(5vw + 5vh);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#t3 {
+  font-family: subHeadFont;
+  background-color: rgba(190,166,140,0.8);
+  color: rgba(137,102,74,0.8);
+  font-size: calc(2vw + 2vh);
+  text-align: center;
+  width: calc(30vw + 3vh);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+#kofGif {
+  visibility: hidden;
+  display: block;
+  width: 30dvw;
+  height: 30dvh;
+  margin: auto;
+}
+
+#startNoti {
+  visibility: hidden;
+  font-family: codec;
+  color: rgb(186, 37, 29);
+  font-size: calc(4vw + 4vh);
+  text-align: center;
+  margin-top: 0;
+}
+
+#loadDiv {
+  margin-top: 80px;
+  border-style: solid;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  padding-bottom: 50px;
+  border-color: rgb(223, 151, 148);
+}
+
+#loadP {
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: codec;
+  color: rgb(186, 37, 29);
+  background-color: black;
+  border-style: solid;
+  border-width: 0px;
+  font-size: calc(4vw + 4vh);
+  width: calc(40vw + 40vh);
+  text-align: center;
+}
+
+#btnDiv {
+  max-width: fit-content;
+  margin-left: auto; 
+  margin-right: auto;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto;
+  border-style: solid;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-color: rgb(223, 151, 148);
+}
+
+button {
+  font-family: codec;
+  color: rgb(186, 37, 29);
+  background-color: black;
+  border-style: solid;
+  border-width: 0px;
+  font-size: calc(4vw + 4vh);
+  width: 50vw;
+  text-align: center;
+}
+
+button:hover {
+  color: rgb(223, 151, 148);
+  background-color: rgb(186, 37, 29);
+  border-style: solid;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-color: black;
+}
+
+#returnNoti {
+  font-family: codec;
+  color: rgb(186, 37, 29);
+  font-size: calc(2vw + 2vh);
+  margin-top: 50px;
+  text-align: center;
+}
+
+#controls {
+  width: 80vw;
+  height: 80vh;
+  display: block;
+  margin: auto;
+}
+
+#backNoti {
+  font-family: codec;
+  color: rgb(186, 37, 29);
+  font-size: calc(2vw + 2vh);
+  text-align: center;
+}
+
+#aboutBackNoti {
+  font-family: codec;
+  color: rgb(186, 37, 29);
+  font-size: calc(2vw + 2vh);
+  margin-left: 10px;
+}
+
+.slideImg {
+  width: 100vw;
+  height: 60vh;
+}
+
+#text {
+  font-family: codec;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
