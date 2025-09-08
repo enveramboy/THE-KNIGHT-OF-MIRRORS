@@ -124,7 +124,7 @@ function loadVideo(r) {
   backNoti.innerText = "CONFIRM";
   document.body.addEventListener("keydown", () => { loadInfo(r); });
   let slide = makeElement("div", "slide", "slideImg", r);
-  slide.innerHTML = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/m0jUERGDB80" title="THE KNIGHT OF MIRRORS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+  slide.innerHTML = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/5XTD1bYR_E8" title="THE KNIGHT OF MIRRORS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
   let text = makeElement("p", "text", null, r);
   animateMsg(["HERE IS A PERFORMANCE VIDEO OF THE KNIGHT OF MIRRORS.", "PLEASE HAVE A LOOK."]);
 
